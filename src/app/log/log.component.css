@@ -1,0 +1,25 @@
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: transparent; /* Transparentna pozadina */
+    color: #007bff; /* Plava boja teksta */
+    border: 2px solid #007bff; /* Plavi obrub */
+    padding: 10px 20px; /* Unutarnji razmak */
+    font-size: 16px; /* Veličina fonta */
+    border-radius: 4px; /* Zaobljeni rubovi */
+    cursor: pointer; /* Ruka pokazivač */
+    transition: color 0.3s, border-color 0.3s; /* Glatke promjene */
+  }
+  
+  button:hover {
+    color: white; /* Bijela boja teksta kad se pređe mišem */
+    background-color: #007bff; /* Plava pozadina kad se pređe mišem */
+    border-color: #007bff; /* Plavi obrub kad se pređe mišem */
+  }
+  div {
+    padding-left: 600px;
+  }
